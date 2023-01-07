@@ -33,7 +33,7 @@ function addData() {
 }
 
 function removeAdmin() {
-  arr=arr.filter(function arrayItemFilter);
+  arr = arr.filter(function arrayItemFilter);
   function arrayItemFilter(item){
     if(item.profession !== "admin"){
       return item;
@@ -48,7 +48,7 @@ function concatenateArray() {
     { id: 2, name: "Durgesh", age: "18", profession: "full stack developer" },
     { id: 3, name: "Ramesh", age: "35", profession: "Banker" },
   ]
-  let newAarray = arr.concat(arr1);
+  let newArray = arr.concat(arr1);
   console.log(newArray);
 }
 
